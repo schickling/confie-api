@@ -1,0 +1,23 @@
+{
+    "groups": [
+        [{
+            "id": 1,
+            "type": "input",
+            "text": "What is your firstname?",
+            "answers": []
+        }, {
+            "id": 2,
+            "type": "input",
+            "text": "My lastname is %!, cool huh?",
+            "answers": []
+        }],
+        [{
+            "id": 3,
+            "type": "select",
+            "text": "What is the color for your car?",
+            "answers": ["blue", "red"]
+        }]
+    ],
+    "estimate": 400.01,
+    "progress": 0.25
+}
