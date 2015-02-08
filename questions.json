@@ -1,11 +1,6 @@
 [
     [{
-        "label": "My name is %!? ",
-        "id": "title",
-        "type": "select",
-        "options": ["mr", "mrs", "mrs", "miss"]
-    }, {
-        "label": "%! ",
+        "label": "My name is %! ",
         "id": "first_name",
         "type": "input"
     }, {
@@ -19,7 +14,13 @@
         "options": ["my car"]
     }], 
     [{
-        "label": "I was born on %!, ",
+        "label": "You can address me as %!.",
+        "id": "title",
+        "type": "select",
+        "options": ["mr", "ms", "mrs", "miss"]
+    }], 
+    [{
+        "label": "I was born on %! ",
         "id": "date_of_birth",
         "type": "date"
     }, {
