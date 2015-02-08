@@ -1,0 +1,12 @@
+{
+    "groups": [
+        [{
+            "id": 5,
+            "type": "date",
+            "text": "this is an additional question with %! as date",
+            "answers": []
+        }]
+    ],
+    "estimate": 404.01,
+    "progress": 0.55
+}

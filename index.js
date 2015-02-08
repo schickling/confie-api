@@ -11,4 +11,9 @@ app.get('/initial', function(req, res) {
     res.send(mock);
 });
 
+app.post('/answer', function(req, res) {
+    var mock = require('./response.json');
+    res.send(mock);
+});
+
 app.listen(8000);
