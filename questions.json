@@ -8,7 +8,7 @@
         "id": "last_name",
         "type": "input"
     }, {
-        "label": "and I'd'like to cover %!.",
+        "label": "and I'd like to cover %!.",
         "id": "product_type",
         "type": "select",
         "options": ["my car"]
