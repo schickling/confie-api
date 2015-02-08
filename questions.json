@@ -1,40 +1,41 @@
 [{
-    "label": "What is your first name?",
-    "id": "first_name",
-    "type": "input"
-}, {
-    "label": "What is your title?",
+    "label": "My name is %!? ",
     "id": "title",
     "type": "select",
     "options": ["mr", "mrs", "mrs", "miss"]
 }, {
-    "label": "What is your last name?",
+    "label": "%! ", 
+    "id": "first_name",
+    "type": "input"
+}, {
+    "label": "%! ",
     "id": "last_name",
     "type": "input"
 }, {
-    "label": "Date of birth?",
+    "label": "and I'd'like to cover %!.",
+    "id": "product_type",
+    "type": "select",
+    "options": ["my car"]
+}, {
+    "label": "I was born on %!, ",
     "id": "date_of_birth",
     "type": "date"
 }, {
-    "label": "Marital Status? ",
+    "label": " I live at %!, ",
+    "id": "postcode",
+    "type": "input"
+}, {
+    "label": " and my status is %!.",
     "id": "marital_status",
     "type": "select",
     "options": ["single", "married", "common law", "divorced", "widowed", "civil partner"]
 }, {
-    "label": "Your e-mail address? ",
+    "label": "If you need to contact me, my e-mail address is %! ",
     "id": "email",
     "type": "input"
 }, {
-    "label": "Your preferred telephone number? ",
+    "label": "and my phone number is %!.",
     "id": "phone",
-    "type": "input"
-}, {
-    "label": "Your post code? ",
-    "id": "postcode",
-    "type": "input"
-}, {
-    "label": "Your home address? ",
-    "id": "home_address",
     "type": "input"
 }, {
     "label": "How many cars or vans are there at this address?",
