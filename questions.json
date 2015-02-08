@@ -62,20 +62,19 @@
         "id": "vehicle_registration_number",
         "type": "input"
     }, {
-        "label": "and it's worth approximately £%!",
+        "label": "and it's worth approximately £%!.",
         "id": "vehicle_approximate_value",
         "type": "number",
         "min": 0,
         "max": 500000
     }], 
     [{
-        "label": "What how many miles has your car travelled this year?",
-        "id": "vehicle_miles_travelled_this_year",
-        "type": "number",
-        "min": 0,
-        "max": 150000
+        "label": "I %! the registered owner of this vehicle ",
+        "id": "vehicle_registrerd_owner",
+        "type": "select",
+        "options": ["am", "am not"]
     }, {
-        "label": "Where is this vehicle kept overnight?",
+        "label": "and overnight I keep it %!.",
         "id": "vechile_overnight_location",
         "type": "select",
         "options": ["Garaged",
@@ -84,23 +83,24 @@
             "Kept on public road",
             "Kept on private property",
             "Car park",
-            "Other"
-        ]
-    }, {
-        "label": "Are you the registered owner of this vehicle?",
-        "id": "vehicle_registrerd_owner",
-        "type": "select",
-        "options": ["Yes", "No"]
-    }, {
-        "label": "How do you use this vehicle?",
+            "Other"]
+    }], 
+    [{
+        "label": "I use this vehicle for %! ",
         "id": "vehicle_use",
         "type": "select",
         "options": ["Social, domestic & pleasure only",
             "All of the above, plus commuting",
             "All of the above, plus personal business use",
-            "All of the above, plus employer's business use"
-        ]
+            "All of the above, plus employer's business use"]
     }, {
+        "label": "and together we will travel around %! miles this year.",
+        "id": "vehicle_miles_travelled_this_year",
+        "type": "number",
+        "min": 0,
+        "max": 150000
+    }], 
+    [{
         "label": "When would you cover to start on this vehicle?",
         "id": "vehicle_cover_start_date",
         "type": "date"
