@@ -1,0 +1,127 @@
+[{
+    "label": "What is your first name?",
+    "id": "first_name",
+    "type": "input"
+}, {
+    "label": "What is your title?",
+    "id": "title",
+    "type": "select",
+    "options": ["mr", "mrs", "mrs", "miss"]
+}, {
+    "label": "What is your last name?",
+    "id": "last_name",
+    "type": "input"
+}, {
+    "label": "Date of birth?",
+    "id": "date_of_birth",
+    "type": "date"
+}, {
+    "label": "Marital Status? ",
+    "id": "marital_status",
+    "type": "select",
+    "options": ["single", "married", "common law", "divorced", "widowed", "civil partner"]
+}, {
+    "label": "Your e-mail address? ",
+    "id": "email",
+    "type": "input"
+}, {
+    "label": "Your preferred telephone number? ",
+    "id": "phone",
+    "type": "input"
+}, {
+    "label": "Your post code? ",
+    "id": "postcode",
+    "type": "input"
+}, {
+    "label": "Your home address? ",
+    "id": "home_address",
+    "type": "input"
+}, {
+    "label": "How many cars or vans are there at this address?",
+    "id": "number_of_vehicles",
+    "type": "select",
+    "options": ["1", "2", "3", "4", "5+"]
+}, {
+    "label": "What is your employment type?",
+    "id": "employment_type",
+    "type": "select",
+    "options": ["employed", "self-employed", "retired", "not employed due to disability", "household duties", "full/part time education", "voluntary worker", "unemployed"],
+    "children": [{
+        "label": "What do you do for a living?",
+        "id": "profession",
+        "type": "input"
+    }, {
+        "label": "What type of industry do you work in?",
+        "id": "industry",
+        "type": "input"
+    }]
+}, {
+    "label": "What is your registration number?",
+    "id": "vehicle_registration_number",
+    "type": "input"
+}, {
+    "label": "What is the approximate value of your vehicle?",
+    "id": "vehicle_approximate_value",
+    "type": "number",
+    "min": 0,
+    "max": 500000
+}, {
+    "label": "What how many miles has your car travelled this year?",
+    "id": "vehicle_miles_travelled_this_year",
+    "type": "number",
+    "min": 0,
+    "max": 150000
+}, {
+    "label": "Where is this vehicle kept overnight?",
+    "id": "vechile_overnight_location",
+    "type": "select",
+    "options": ["Garaged",
+        "Parked on Drive",
+        "Carport",
+        "Kept on public road",
+        "Kept on private property",
+        "Car park",
+        "Other"
+    ]
+}, {
+    "label": "Are you the registered owner of this vehicle?",
+    "id": "vehicle_registrerd_owner",
+    "type": "select",
+    "options": ["Yes", "No"]
+}, {
+    "label": "How do you use this vehicle?",
+    "id": "vehicle_use",
+    "type": "select",
+    "options": ["Social, domestic & pleasure only",
+        "All of the above, plus commuting",
+        "All of the above, plus personal business use",
+        "All of the above, plus employer's business use"
+    ]
+}, {
+    "label": "When would you cover to start on this vehicle?",
+    "id": "vehicle_cover_start_date",
+    "type": "date"
+}, {
+    "label": "Type of driving license?",
+    "id": "driving_license_type",
+    "type": "select",
+    "options": ["UK Full", "Other"]
+}, {
+    "label": "How long have you held a driving license?",
+    "id": "driving_license_age",
+    "type": "number",
+    "min": 0,
+    "max": 10
+}, {
+    "label": "How many years no claim discount do you have available to use on this vehicle?",
+    "id": "no_claims_years",
+    "type": "number",
+    "min": 0,
+    "max": 30
+}, {
+    "label": "How many motor claims have you made in the last 4 years?",
+    "id": "number_of_motor_claims",
+    "type": "number",
+    "min": 0,
+    "max": 30
+}]

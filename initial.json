@@ -1,23 +1,23 @@
 {
     "groups": [
         [{
-            "id": 1,
+            "id": "first_name",
             "type": "input",
             "text": "What is your firstname?",
             "answers": []
         }, {
-            "id": 2,
+            "id": "last_name",
             "type": "input",
             "text": "My lastname is %!, cool huh?",
             "answers": []
         }],
         [{
-            "id": 3,
+            "id": "last_name",
             "type": "select",
             "text": "What is %! the color for your car?",
             "answers": ["blue", "red"]
         }, {
-            "id": 4,
+            "id": "last_name",
             "type": "radio",
             "text": "What is the color for your car?",
             "answers": ["blue", "red"]

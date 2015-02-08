@@ -1,7 +1,6 @@
 {
     "groups": [
         [{
-            "id": 5,
             "type": "date",
             "text": "this is an additional question with %! as date",
             "answers": []
