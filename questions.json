@@ -106,7 +106,7 @@
         "type": "select",
         "options": ["UK Full", "Other"]
     }, {
-        "label": "%! years.",
+        "label": " %! years.",
         "id": "driving_license_age",
         "type": "number",
         "min": 0,
