@@ -1,10 +1,5 @@
 [{
-    "label": "My name is %!? ",
-    "id": "title",
-    "type": "select",
-    "options": ["mr", "mrs", "mrs", "miss"]
-}, {
-    "label": "%! ", 
+    "label": "My name is %! ", 
     "id": "first_name",
     "type": "input"
 }, {
@@ -17,15 +12,20 @@
     "type": "select",
     "options": ["my car"]
 }, {
-    "label": "I was born on %!, ",
+    "label": "You can address me as %!.",
+    "id": "title",
+    "type": "select",
+    "options": ["mr", "mrs", "mrs", "miss"]
+}, {
+    "label": "I was born on %!,",
     "id": "date_of_birth",
     "type": "date"
 }, {
-    "label": " I live at %!, ",
+    "label": " I live at %!.",
     "id": "postcode",
     "type": "input"
 }, {
-    "label": " and my status is %!.",
+    "label": "My status is %!.",
     "id": "marital_status",
     "type": "select",
     "options": ["single", "married", "common law", "divorced", "widowed", "civil partner"]
