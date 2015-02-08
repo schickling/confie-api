@@ -101,31 +101,40 @@
         "max": 150000
     }], 
     [{
-        "label": "When would you cover to start on this vehicle?",
-        "id": "vehicle_cover_start_date",
-        "type": "date"
-    }, {
-        "label": "Type of driving license?",
+        "label": "I've held my %! license for ",
         "id": "driving_license_type",
         "type": "select",
         "options": ["UK Full", "Other"]
     }, {
-        "label": "How long have you held a driving license?",
+        "label": "%! years.",
         "id": "driving_license_age",
         "type": "number",
         "min": 0,
-        "max": 10
-    }, {
-        "label": "How many years no claim discount do you have available to use on this vehicle?",
-        "id": "no_claims_years",
-        "type": "number",
-        "min": 0,
-        "max": 30
-    }, {
-        "label": "How many motor claims have you made in the last 4 years?",
+        "max": 25
+    }], 
+    [{
+        "label": "I've had %! motor claims and ",
         "id": "number_of_motor_claims",
         "type": "number",
         "min": 0,
-        "max": 30
+        "max": 6
+    }, {
+        "label": "%! motor convictions in the last 4 years.",
+        "id": "number_of_motor_convictions",
+        "type": "number",
+        "min": 0,
+        "max": 6
+    }], 
+    [{
+        "label": "I have %! years no claim discount to use on this vehicle.",
+        "id": "no_claims_years",
+        "type": "number",
+        "min": 0,
+        "max": 10
+    }], 
+    [{
+        "label": "Please start my vehicle cover on %!.",
+        "id": "vehicle_cover_start_date",
+        "type": "date"
     }]
 ]
