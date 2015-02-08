@@ -16,7 +16,7 @@ var flatQuestions = _(questions)
     .flatten()
     .value();
 
-var i = 1;
+var i;
 
 var answers = {};
 
@@ -33,24 +33,27 @@ app.use(cors({
 app.use(bodyParser.json());
 
 app.get('/initial', function(req, res) {
+    i = 0;
     res.send({
-        questions: questions[0],
+        questions: questions[i],
         progress: 0,
     });
+    i++;
 });
 
 app.post('/answer', function(req, res) {
     answers[req.body.id] = req.body.value;
 
+    console.log(answers);
     var result = {
         progress: i / questions.length,
     };
     console.log(isLast(req.body.id));
     if (isLast(req.body.id)) {
         result.questions = questions[i];
+        i++;
     }
     res.send(result);
-    i++;
 });
 
 app.listen(8000);
