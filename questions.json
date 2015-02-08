@@ -14,7 +14,12 @@
         "options": ["my car"]
     }], 
     [{
-        "label": "You can address me as %!.",
+        "label": "My status is %! ",
+        "id": "marital_status",
+        "type": "select",
+        "options": ["single", "married", "common law", "divorced", "widowed", "civil partner"]
+    }, {
+        "label": "and you can address me as %!.",
         "id": "title",
         "type": "select",
         "options": ["mr", "ms", "mrs", "miss"]
@@ -27,12 +32,6 @@
         "label": "and I live at %!.",
         "id": "postcode",
         "type": "input"
-    }], 
-    [{
-        "label": "My status is %!.",
-        "id": "marital_status",
-        "type": "select",
-        "options": ["single", "married", "common law", "divorced", "widowed", "civil partner"]
     }], 
     [{
         "label": "If you need to contact me, my e-mail address is %! ",
