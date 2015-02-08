@@ -12,26 +12,28 @@
         "label": "%! ",
         "id": "last_name",
         "type": "input"
-    }],
-    [{
+    }, {
         "label": "and I'd'like to cover %!.",
         "id": "product_type",
         "type": "select",
         "options": ["my car"]
-    }, {
+    }], 
+    [{
         "label": "I was born on %!, ",
         "id": "date_of_birth",
         "type": "date"
     }, {
-        "label": " I live at %!, ",
+        "label": "and I live at %!.",
         "id": "postcode",
         "type": "input"
-    }, {
-        "label": " and my status is %!.",
+    }], 
+    [{
+        "label": "My status is %!.",
         "id": "marital_status",
         "type": "select",
         "options": ["single", "married", "common law", "divorced", "widowed", "civil partner"]
-    }, {
+    }], 
+    [{
         "label": "If you need to contact me, my e-mail address is %! ",
         "id": "email",
         "type": "input"
@@ -39,36 +41,34 @@
         "label": "and my phone number is %!.",
         "id": "phone",
         "type": "input"
-    }, {
-        "label": "How many cars or vans are there at this address?",
-        "id": "number_of_vehicles",
-        "type": "select",
-        "options": ["1", "2", "3", "4", "5+"]
-    }, {
-        "label": "What is your employment type?",
+    }], 
+    [{
+        "label": "Currently, I am %! as a ",
         "id": "employment_type",
         "type": "select",
         "options": ["employed", "self-employed", "retired", "not employed due to disability", "household duties", "full/part time education", "voluntary worker", "unemployed"],
         "children": [{
-            "label": "What do you do for a living?",
+            "label": "%! in the ",
             "id": "profession",
             "type": "input"
         }, {
-            "label": "What type of industry do you work in?",
+            "label": "%! industry.",
             "id": "industry",
             "type": "input"
         }]
-    }, {
-        "label": "What is your registration number?",
+    }], 
+    [{
+        "label": "My car's registration number is %! ",
         "id": "vehicle_registration_number",
         "type": "input"
     }, {
-        "label": "What is the approximate value of your vehicle?",
+        "label": "and it's worth approximately £%!",
         "id": "vehicle_approximate_value",
         "type": "number",
         "min": 0,
         "max": 500000
-    }, {
+    }], 
+    [{
         "label": "What how many miles has your car travelled this year?",
         "id": "vehicle_miles_travelled_this_year",
         "type": "number",
