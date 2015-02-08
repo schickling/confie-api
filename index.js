@@ -18,31 +18,31 @@ var flatQuestions = _(questions)
     .value();
 
 var i;
-//var answers = {};
-var answers = {
-    first_name: '12',
-    last_name: 'wdfg',
-    product_type: 'my car',
-    marital_status: 'married',
-    title: 'mr',
-    date_of_birth: '2015-02-11T00:00:00.000Z',
-    postcode: 'sdf',
-    email: 'sdf',
-    phone: 'dsf',
-    employment_type: 'employed',
-    vehicle_registration_number: 'sdf',
-    vehicle_approximate_value: 'sdf',
-    vehicle_registrerd_owner: 'am',
-    vechile_overnight_location: 'Garaged',
-    vehicle_use: 'Social, domestic & pleasure only',
-    vehicle_miles_travelled_this_year: 'dsf',
-    driving_license_type: 'UK Full',
-    driving_license_age: 'dsf',
-    number_of_motor_claims: 'dsf',
-    number_of_motor_convictions: 'sdf',
-    no_claims_years: 'dsf',
-    vehicle_cover_start_date: '2015-02-04T00:00:00.000Z'
-};
+var answers = {};
+//var answers = {
+//first_name: '12',
+//last_name: 'wdfg',
+//product_type: 'my car',
+//marital_status: 'married',
+//title: 'mr',
+//date_of_birth: '2015-02-11T00:00:00.000Z',
+//postcode: 'sdf',
+//email: 'sdf',
+//phone: 'dsf',
+//employment_type: 'employed',
+//vehicle_registration_number: 'sdf',
+//vehicle_approximate_value: 'sdf',
+//vehicle_registrerd_owner: 'am',
+//vechile_overnight_location: 'Garaged',
+//vehicle_use: 'Social, domestic & pleasure only',
+//vehicle_miles_travelled_this_year: 'dsf',
+//driving_license_type: 'UK Full',
+//driving_license_age: 'dsf',
+//number_of_motor_claims: 'dsf',
+//number_of_motor_convictions: 'sdf',
+//no_claims_years: 'dsf',
+//vehicle_cover_start_date: '2015-02-04T00:00:00.000Z'
+//};
 var endpoints;
 
 function isLast(id) {
@@ -89,7 +89,7 @@ app.post('/submit', function(req, res) {
         .send(answers)
         .end(function(res) {
             // Do something
-            console.log(res);
+            //console.log(res);
             endpoints = res.body.result_endpoints;
         });
 });
