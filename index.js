@@ -52,7 +52,7 @@ function isLast(id) {
 }
 
 app.use(cors({
-    allowedOrigins: ['localhost:*']
+    allowedOrigins: ['localhost:*', '*.orlato.com:*']
 }));
 
 app.use(bodyParser.json());
